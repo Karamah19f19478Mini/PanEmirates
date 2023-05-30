@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard19f19478"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/recImage19f19478"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/baseline_add_a_photo_24" />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/recProductName"
+            android:text="Product Name"
+            android:textColor="@color/darkgray"
+            android:textSize="10sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@id/recImage19f19478"/>
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/recPrice"
+            android:text="Price"
+            android:textColor="@color/darkgray"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recProductName"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="90dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/recDesc19f19478"
+            android:text="Description"
+            android:textColor="@color/darkgray"
+            android:textSize="14sp"
+            android:layout_toEndOf="@id/recImage19f19478"
+            android:layout_below="@id/recProductName"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="12dp"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

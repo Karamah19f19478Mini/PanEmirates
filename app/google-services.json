@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "453587844374",
+    "project_id": "panemirates-8a1aa",
+    "storage_bucket": "panemirates-8a1aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453587844374:android:29d836237d1d1af6562437",
+        "android_client_info": {
+          "package_name": "com.example.panemirates"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH5F690YM03JIHt7DRmhKbbwXqlhXk6sQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
